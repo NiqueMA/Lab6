@@ -1,0 +1,206 @@
+body, html {
+    height: 100%;
+    background-color: #bfdcae;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url(/Portfolio/Cover.jpg);
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 150%;
+  }
+
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+  .about
+  {
+      color: #206a5d;
+      font-size: 500%;
+      line-height: 5%;
+  }
+
+
+  .fa 
+  {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+  }
+  
+  .fa:hover 
+  {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook 
+  {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin 
+  {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github 
+  {
+    background: #4078c0;
+    color: white;
+  }
+nav
+{
+  overflow: hidden;
+  background-color: #f1f1e8;
+}
+
+nav a
+{
+  float: left;
+  font-size: 200%;
+  color: #206a5d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.drop
+{
+  float: left;
+  overflow: hidden;
+}
+
+.drop .dropbtn
+{
+  cursor: pointer;
+  font-size: 200%;  
+  border: none;
+  outline: none;
+  color: #206a5d;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+nav a:hover, .drop:hover .dropbtn, .dropbtn:focus
+{
+  background-color: #81b214;
+}
+
+.droplink
+{
+  display: none;
+  position: absolute;
+  background-color: #f1f1e8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.droplink a
+{
+  float: none;
+  color: #206a5d;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.droplink a:hover
+{
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.contact
+{
+  text-align: center;
+  font-size: 200%;
+}
+
+.circle
+{
+  height: 30px;
+  width: 30px;
+  background-color: #81b214;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
